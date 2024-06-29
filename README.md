@@ -18,7 +18,7 @@ automatically delivers the stored data to the nominated individuals.
 
 Frontend: [TrustVault](https://github.com/GLVSKiriti/TrustVaultFrontend)
 
-Backend: [TrustVault](https://github.com/GLVSKiriti/TrustVault)
+Backend: [TrustVault](https://github.com/pranay435/Trust-Vault)
 
 # `Backend`
 

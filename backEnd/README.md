@@ -16,9 +16,9 @@ automatically delivers the stored data to the nominated individuals.
 
 # Repositories
 
-Frontend: [TrustVault](https://github.com/GLVSKiriti/TrustVaultFrontend)
+Frontend: [TrustVault](https://github.com/pranay435/Trust-Vault/frontEnd)
 
-Backend: [TrustVault](https://github.com/GLVSKiriti/TrustVault)
+Backend: [TrustVault](https://github.com/pranay435/Trust-Vault/backEnd)
 
 # `Backend`
 
@@ -42,17 +42,17 @@ Backend: [TrustVault](https://github.com/GLVSKiriti/TrustVault)
 
 # `Frontend`
  - These are Frontend UI of few pages
- - If you want to see all pages [Frontend UI](https://github.com/GLVSKiriti/TrustVaultFrontend/tree/main/ImagesForReadme)
+ - If you want to see all pages [Frontend UI](https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme)
 
-<img src="https://github.com/GLVSKiriti/TrustVaultFrontend/blob/main/ImagesForReadme/loginPage.png"> 
+<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/loginPage.png"> 
 
-<img src="https://github.com/GLVSKiriti/TrustVaultFrontend/blob/main/ImagesForReadme/GetAllVaultsPage.png" >
+<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/GetAllVaultsPage.png" >
 
-<img src="https://github.com/GLVSKiriti/TrustVaultFrontend/blob/main/ImagesForReadme/addVaultPage.png">
+<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/addVaultPage.png">
 
-<img src="https://github.com/GLVSKiriti/TrustVaultFrontend/blob/main/ImagesForReadme/NomOTP.png">
+<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/NomOTP.png">
 
-<img src="https://github.com/GLVSKiriti/TrustVaultFrontend/blob/main/ImagesForReadme/UserPhase2verification.png">
+<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/UserPhase2verification.png">
 
 ## `Future Tasks`
 

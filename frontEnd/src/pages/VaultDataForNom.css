@@ -1,0 +1,99 @@
+.datacard {
+  background-color: white;
+  color: black;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  height: 25em;
+  width: 60em;
+  margin-top: 4em;
+  margin-left: 10em;
+  border: 1px solid black;
+  box-shadow: 2px 4px 15px black;
+  border-radius: 15px;
+  z-index: +2;
+  position: relative;
+  /* overflow-y: scroll; */
+  overflow-y: overlay;
+  /* overflow-y: auto; */
+  overflow-x: none;
+  /* padding: 1em; */
+}
+
+.datacard::-webkit-scrollbar {
+  width: 10px;
+}
+
+.datacard::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.datacard::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.datacard::-webkit-scrollbar-button {
+  height: 10px; /* vertical scrollbar height */
+}
+
+.datacardheading {
+  background-color: #fdcb6e;
+  background-color: gold;
+  transform: rotate(2deg);
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  margin-left: 19em;
+  font-size: large;
+  height: 2em;
+  /* position: sticky; */
+  /* display: inline; */
+}
+
+.upper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: +1;
+}
+
+.circle1new {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 0%;
+  /* position: absolute; */
+  position: sticky;
+  top: 0;
+  /* z-index: +1; */
+}
+
+.circle2new {
+  border-radius: 50%;
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0%;
+  position: sticky;
+  top: 19.8em;
+  left: 59em;
+}
+
+.datacardcontent {
+  padding: 3em;
+  padding-top: 0px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;
+ */
+  height: 11.6em;
+  text-align: center;
+}

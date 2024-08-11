@@ -1,0 +1,122 @@
+.page5 {
+  background-image: url("https://transparenttextures.com/patterns/skulls.png");
+  min-height: 100vh;
+  font-family: "McLaren", cursive;
+}
+
+.displayvaultsection {
+  min-height: 80vh;
+  width: 80vw;
+  /* background: white; */
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 50px;
+  z-index: +1;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 4px 15px black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.displayvault {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.displayvault > h2 {
+  font-family: "McLaren", cursive;
+  background-color: gold;
+  /* transform: rotate(2deg); */
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.displayvault > input {
+  width: 40%;
+  min-height: 2.5em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+}
+
+.displayvault > input:focus {
+  outline: none;
+}
+
+.vaultdatafrom {
+  align-items: baseline;
+}
+
+.vaultdatafrom > h2 {
+  margin-left: 30px;
+}
+
+.vaultdatafrom > textarea {
+  width: 85%;
+  height: 15em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+  background-color: white;
+  resize: none;
+  /* overflow-y: visible; */
+}
+
+.vaultdatafrom > textarea:focus {
+  outline: none;
+}
+
+.nomdetailsheadingfromdislayvault {
+  font-family: "McLaren", cursive;
+  margin-left: 10px;
+  background: gold;
+  /* transform: rotate(2deg); */
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  width: 16%;
+  padding-left: 5px;
+  font-size: 22px;
+}
+
+.descfrom {
+  margin-top: 20px;
+}
+
+.descfrom > textarea {
+  width: 70%;
+  /* margin-left: 70px; */
+  height: 8em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+  background-color: white;
+  resize: none;
+}
+
+.descfrom > textarea:focus {
+  outline: none;
+}

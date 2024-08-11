@@ -1,0 +1,13 @@
+.error {
+  color: red;
+  font-weight: 900;
+  position: absolute;
+  top: 3.5rem;
+}
+
+.message {
+  color: green;
+  font-weight: 900;
+  position: absolute;
+  top: 3.5rem;
+}

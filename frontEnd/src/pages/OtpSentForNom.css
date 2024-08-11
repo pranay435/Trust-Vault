@@ -1,0 +1,160 @@
+body {
+  background: white;
+  color: black;
+}
+
+.page2 {
+  background-color: white;
+  /* background-image: url("https://transparenttextures.com/patterns/white-diamond.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/worn-dots.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/zig-zag.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/wine-cork.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/white-paperboard.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/soft-circle-scales.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/silver-scales.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/scribble-light.png"); */
+  /* background-image: url("https://transparenttextures.com/patterns/inspiration-geometry.png"); */
+  background-image: url("https://transparenttextures.com/patterns/skulls.png");
+  /* background-image: url("https://transparenttextures.com/patterns/crissxcross.png"); */
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header {
+  background: linear-gradient(
+    251.85deg,
+    #045de9 -6.47%,
+    #045de9 31.92%,
+    #151b54 100%
+  );
+  color: white;
+  font-family: "McLaren", cursive;
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+}
+
+.profile {
+  margin-right: 1.5rem;
+  padding-top: 0.25rem;
+  /* border: 1px solid black; */
+  height: 11vh;
+  cursor: pointer;
+  z-index: +2;
+}
+
+.profile > img {
+  height: 100%;
+  width: 100%;
+}
+
+.dropdownmenutwo {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border: 1px solid black;
+}
+
+.dropdownmenutwo > div {
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.dropdownmenutwo > div:hover {
+  background: black;
+  color: white;
+}
+
+.design {
+  position: absolute;
+  height: 12vh;
+  /* z-index: +1; */
+}
+
+.otpcard {
+  background-color: #045de9;
+  background-color: white;
+  min-height: 20em;
+  width: 35em;
+  margin-top: 10em;
+  margin-left: 30.5em;
+  border: 1px solid black;
+  box-shadow: 2px 4px 15px black;
+  border-radius: 15px;
+  font-family: "McLaren", cursive;
+  color: black;
+  z-index: +2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.otpcardheading {
+  background-color: #fdcb6e;
+  background-color: gold;
+  transform: rotate(2deg);
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+}
+
+.otpemail {
+  height: 3rem;
+  width: 20rem;
+  font-family: "McLaren", cursive;
+  padding-left: 2em;
+  font-size: medium;
+  border-radius: 12px;
+}
+
+.sendotp {
+  height: 3rem;
+  width: 10rem;
+  font-family: "McLaren", cursive;
+  font-size: medium;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px grey;
+  background-color: #045de9;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.sendotp:disabled {
+  cursor: not-allowed;
+}
+
+.circle1 {
+  border-radius: 50%;
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: -64px;
+  top: -92px;
+}
+
+.circle2 {
+  border-radius: 50%;
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: -64px;
+  bottom: -92px;
+}
+
+.error2 {
+  font-family: "McLaren", cursive;
+  font-size: medium;
+  color: red;
+}

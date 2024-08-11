@@ -1,0 +1,223 @@
+.page4 {
+  background-image: url("https://transparenttextures.com/patterns/skulls.png");
+  /* background: pink; */
+  min-height: 100vh;
+}
+
+.addvaultsection {
+  min-height: 80vh;
+  width: 80vw;
+  /* background: white; */
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 50px;
+  z-index: +1;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 4px 15px black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttonsforaddvault {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addva {
+  height: 3em;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px black;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.addva:disabled {
+  cursor: not-allowed;
+}
+
+.cancelva {
+  height: 3em;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px black;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.sec {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sec > h2 {
+  font-family: "McLaren", cursive;
+  background-color: gold;
+  /* transform: rotate(2deg); */
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.sec > input {
+  width: 40%;
+  min-height: 2.5em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+}
+
+.sec > input:focus {
+  outline: none;
+}
+
+.nomdetailsheading {
+  font-family: "McLaren", cursive;
+  margin-left: 10px;
+  background: gold;
+  /* transform: rotate(2deg); */
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  width: 16%;
+  padding-left: 5px;
+  font-size: 22px;
+}
+
+.nomineedetails {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.nomineedetails > h2 {
+  font-family: "McLaren", cursive;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.nom {
+  width: 25%;
+  height: 2.5em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 20px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.nom:focus {
+  outline: none;
+}
+
+.nomineedetails > img {
+  height: 3.8em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.addnomineebutton {
+  font-family: "McLaren", cursive;
+  margin-top: 15px;
+  margin-left: 60px;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  font-size: larger;
+  font-weight: 700;
+  width: 15%;
+  height: 2.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  background-color: dodgerblue;
+  box-shadow: 1.5px -1px 5px black;
+  cursor: pointer;
+  color: white;
+}
+
+.addnomineebutton > b {
+  font-size: xx-large;
+}
+
+.vname {
+  margin-top: 30px;
+}
+
+.data {
+  align-items: baseline;
+}
+
+.data > h2 {
+  margin-left: 30px;
+}
+
+.data > textarea {
+  width: 85%;
+  height: 15em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+  background-color: white;
+  resize: none;
+  /* overflow-y: visible; */
+}
+
+.data > textarea:focus {
+  outline: none;
+}
+
+.desc {
+  margin-top: 20px;
+}
+
+.desc > textarea {
+  width: 70%;
+  /* margin-left: 70px; */
+  height: 8em;
+  font-size: larger;
+  font-family: "McLaren", cursive;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  box-shadow: 1.5px -1px 5px black;
+  border-radius: 10px;
+  background-color: white;
+  resize: none;
+}
+
+.desc > textarea:focus {
+  outline: none;
+}
+
+.vsk {
+  margin-top: 20px;
+}

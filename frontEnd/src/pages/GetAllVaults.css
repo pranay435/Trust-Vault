@@ -1,0 +1,307 @@
+.page3 {
+  background-image: url("https://transparenttextures.com/patterns/skulls.png");
+  min-height: 100vh;
+}
+
+.holder {
+  z-index: 1;
+}
+
+.vaultcard2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.vaultcard {
+  background: white;
+  height: 170px;
+  width: 160px;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 15px black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.vaultcard > img {
+  width: 100%;
+  height: 100%;
+}
+
+.vaultname {
+  font-family: "McLaren", cursive;
+  background-color: gold;
+  transform: rotate(2deg);
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  /* margin-left: 45px; */
+  /* margin-top: 50px; */
+  font-size: larger;
+  font-weight: 900;
+}
+
+.one {
+  background-color: greenyellow;
+}
+
+.two {
+  background-color: #ff6f61;
+}
+
+.three {
+  background-color: lightseagreen;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  /* border-top: 1px solid black; */
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 14px;
+  border-bottom: 2px solid black;
+  width: 75%;
+}
+
+.item:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.item > img {
+  height: 28px;
+  width: 26px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.item > p {
+  font-family: "McLaren", cursive;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item:hover > p {
+  color: white;
+}
+
+.dropdownmenu {
+  position: absolute;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 15px;
+  border: 1px solid black;
+  top: 100px;
+  left: 150px;
+  box-shadow: 2px 4px 15px black;
+  /* z-index: 1; */
+}
+
+.dropdownmenu::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: white;
+  /* border: 1px solid black; */
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  top: 44px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.dropdownmenu > ul {
+  padding: 6px;
+  /* margin: 5px; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.vaultHolder {
+  display: grid;
+  /* grid-template-columns: auto auto auto auto auto; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-content: space-around;
+  margin-left: 5em;
+  row-gap: 60px;
+  margin-top: 3em;
+}
+
+.nominees {
+  position: absolute;
+  font-family: "McLaren", cursive;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -35px;
+  left: -110px;
+  /* padding: 4px; */
+  width: 100px;
+  /* max-height: 80px; */
+  height: fit-content;
+  /* overflow-x: none; */
+  /* overflow-y: overlay; */
+  z-index: +2;
+}
+
+.nominees::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: white;
+  /* border: 1px solid black; */
+  width: 9px;
+  height: 9px;
+  bottom: 11px;
+  right: -5px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.nominees::-webkit-scrollbar {
+  width: 9px;
+}
+
+.nominees::-webkit-scrollbar-thumb {
+  border-radius: 150px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.nominees::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.nominees::-webkit-scrollbar-button {
+  height: 3px;
+}
+
+.add {
+  z-index: +1;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 36px;
+  /* background-color: grey; */
+}
+
+.deletepopup {
+  position: absolute;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 5;
+}
+
+.content {
+  position: fixed;
+  background-color: white;
+  width: 35%;
+  height: 35%;
+  margin-top: 35vh;
+  margin-left: 33vw;
+  font-family: "McLaren", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 2px 4px 15px black;
+}
+
+.deletepassword {
+  font-family: "McLaren", cursive;
+  font-size: larger;
+  border-radius: 10px;
+  width: 55%;
+  height: 14%;
+  padding: 3px;
+  padding-left: 9px;
+}
+
+.content > h1 {
+  font-size: x-large;
+  font-weight: 900;
+  background-color: gold;
+  transform: rotate(2deg);
+  color: black;
+  padding: 4px;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+}
+
+.buttons {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.buttons > button {
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px black;
+}
+.buttons > button:disabled {
+  background-color: buttonface;
+  color: buttontext;
+  border-color: black;
+  cursor: not-allowed;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.display:hover {
+  background-color: green;
+  color: white;
+}
+
+.cancel:hover {
+  background-color: black;
+  color: white;
+}

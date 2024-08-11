@@ -42,17 +42,17 @@ Backend: [TrustVault](https://github.com/pranay435/Trust-Vault/backEnd)
 
 # `Frontend`
  - These are Frontend UI of few pages
- - If you want to see all pages [Frontend UI](https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme)
+ - If you want to see all pages [Frontend UI](https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme)
 
-<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/loginPage.png"> 
+<img src="https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme/loginPage.png"> 
 
-<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/GetAllVaultsPage.png" >
+<img src="https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme/GetAllVaultsPage.png" >
 
-<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/addVaultPage.png">
+<img src="https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme/addVaultPage.png">
 
-<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/NomOTP.png">
+<img src="https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme/NomOTP.png">
 
-<img src="https://github.com/pranay435/Trust-Vault/frontEnd/ImagesForReadme/UserPhase2verification.png">
+<img src="https://github.com/pranay435/Trust-Vault/tree/main/frontEnd/ImagesForReadme/UserPhase2verification.png">
 
 ## `Future Tasks`
 
